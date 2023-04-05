@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body {
+			font-family: "Roboto", sans-serif;
+		}
+		.container {
+			width: 100%;
+			margin: 0 auto;
+		}
+		/* custom class */
+		.gantt .bar-milestone .bar {
+			fill: tomato;
+		}
+	</style>
+	<link rel="stylesheet" href="dist/frappe-gantt.css" />
+	<script src="dist/frappe-gantt.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="gantt-target"></div>
+</div>
+
+<script>
+	var tasks = [
+		{
+			start: '2024-10-01',
+			end: '2024-10-07',
+			name: 'Sběr požadavků',
+			id: "Task0"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-14',
+			name: 'Analýza požadavků',
+			id: "Task1"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-07',
+			name: 'Dokumentace požadavků',
+			id: "Task2"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-05',
+			name: 'Návrh architektury',
+			id: "Task3"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-03',
+			name: 'Návrh databáze',
+			id: "Task4"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-07',
+			name: 'Návrh wireframes',
+			id: "Task5"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-14',
+			name: 'Sestavení prototypu',
+			id: "Task6"
+		},
+		{
+			start: '2024-10-01',
+			end: '2024-10-07',
+			name: 'Akceptační testování prototypu',
+			id: "Task7"
+		}
+	]
+	var gantt_chart = new Gantt(".gantt-target", tasks,{
+		bar_height: 30,
+		bar_corner_radius: 15,
+		language: 'cz'
+	});
+	</script>
+</body>
+</html>
