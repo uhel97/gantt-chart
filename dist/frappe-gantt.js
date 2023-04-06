@@ -511,6 +511,7 @@ var Gantt = (function () {
             this.group = createSVG('g', {
                 class: 'bar-wrapper ' + (this.task.custom_class || ''),
                 'data-id': this.task.id,
+                id: this.task.class,
             });
             this.bar_group = createSVG('g', {
                 class: 'bar-group',
