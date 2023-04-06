@@ -1,0 +1,109 @@
+{
+  "tasks": [
+    {
+      "task": 0,
+      "name": "Sběr požadavků",
+      "description": "Sběr požadavků na vyvíjený software od zákazníka, tj. zadavatele vývoje softwaru"
+    },
+    {
+      "task": 1,
+      "name": "Analýza požadavků",
+      "description": "Analýza posbíraných požadavků"
+    },
+    {
+      "task": 2,
+      "name": "Dokumentace požadavků",
+      "description": ""
+    },
+    {
+      "task": 3,
+      "name": "Návrh architektury",
+      "description": ""
+    },
+    {
+      "task": 4,
+      "name": "Návrh databáze",
+      "description": ""
+    },
+    {
+      "task": 5,
+      "name": "Návrh wireframes",
+      "description": ""
+    },
+    {
+      "task": 6,
+      "name": "Sestavení prototypu",
+      "description": ""
+    },
+    {
+      "task": 7,
+      "name": "Akceptační testování prototypu",
+      "description": ""
+    },
+    {
+      "task": 8,
+      "name": "Implementace UI",
+      "description": ""
+    },
+    {
+      "task": 9,
+      "name": "Sestavení databáze",
+      "description": ""
+    },
+    {
+      "task": 10,
+      "name": "Implementace backendu",
+      "description": ""
+    },
+    {
+      "task": 11,
+      "name": "Integrace systému",
+      "description": ""
+    },
+    {
+      "task": 12,
+      "name": "Oprava chyb",
+      "description": ""
+    },
+    {
+      "task": 13,
+      "name": "UNIT testy",
+      "description": ""
+    },
+    {
+      "task": 14,
+      "name": "Integrační testy",
+      "description": ""
+    },
+    {
+      "task": 15,
+      "name": "Systémové testy",
+      "description": ""
+    },
+    {
+      "task": 16,
+      "name": "Akceptační testy",
+      "description": ""
+    },
+    {
+      "task": 17,
+      "name": "Předání chyb",
+      "description": ""
+    },
+    {
+      "task": 18,
+      "name": "Nákup serveru",
+      "description": ""
+    },
+    {
+      "task": 19,
+      "name": "Zprovoznění serveru",
+      "description": ""
+    },
+    {
+      "task": 20,
+      "name": "Spuštění webu",
+      "description": ""
+    }
+  ]
+}
